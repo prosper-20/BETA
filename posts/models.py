@@ -12,4 +12,4 @@ class Post(models.Model):
 
         
     def __str__(self):
-         return str(self.ProductName) if self.ProductName else ''
+         return str(self.title) if self.title else ''
